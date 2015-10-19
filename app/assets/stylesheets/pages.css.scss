@@ -2,14 +2,61 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.nav a {
-    color: #5a5a5a;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 20px;
-    text-transform: uppercase;
+.nav {
+    a {
+        color: #5a5a5a;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+
+    li {
+        display: inline;
+    }
 }
 
-.nav li {
-    display: inline;
+.jumbotron {
+    background-image: image-url("pexels-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    h3 {
+        color: whitesmoke;
+    }
+    margin-bottom: 0!important;
+}
+
+#secondJumbo {
+    background-image: image-url("blackwhitedesk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seeWork {
+    color: white;
+    float: none;
+    font-weight: 200;
+    background:transparent;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+}
+
+#release-announcement {
+    background-image: image-url("wood-blocks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    p {
+        font-size: 18px;
+        padding-top: 10px;
+        display: inline;
+        text-align: center;
+    }
+    a {
+        color: #fff;
+    }
+    height: 40px;
 }

@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require slider
+//= require typed.min
 //= require turbolinks
 //= require_tree .

@@ -2,63 +2,47 @@
 <html>
 
 <head>
-    <title>Portfolio</title>
+    <title>JJCB Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,300italic,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link data-turbolinks-track="true" href="/assets/application-f7aa79b389eed3447dbd88f8dcc0b59e.css" media="all" rel="stylesheet" />
     <script data-turbolinks-track="true" src="/assets/application-4fba09a36c46587a0f07211966615115.js"></script>
     <meta content="authenticity_token" name="csrf-param" />
-    <meta content="Z/8MTVhDcf7Kkz8qN312YuX4IjZsDjX/IWwCsIuVXYk=" name="csrf-token" /> </head>
+    <meta content="Z/8MTVhDcf7Kkz8qN312YuX4IjZsDjX/IWwCsIuVXYk=" name="csrf-token" />
+</head>
 
 <body>
-<div class="header">
-    <div class="container">
-        <div class="row">
-            <div class="menu col-xs-8">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
-                    <li><a href="https://medium.com/about-codecademy">Blog</a></li>
-                </ul>
-            </div>
-            <div class="name col-xs-4">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about">About</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">E-mail</a></li>
-                            <li><a href="#">Github</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
+<script>
+    $(function(){
+        $("#welcomeMessage").typed({
+            strings: ["Welcome. ^1500", "I'm Josh Brown.", "I love to create meaningful customer experiences."],
+            typeSpeed: 0,
+            startDelay: 3000,
+            loop: true,
+            loopCount: 5,
+            showCursor: false
+        });
+    });
+</script>
+<div class="row" style="position:relative; margin-bottom: 0">
+    <div class="col-sm-12">
+        <div class="jumbotron">
+            <div class="container">
+                <h3 id="welcomeMessage" class="text-center"></h3>
             </div>
         </div>
     </div>
 </div>
-<div class="main home">
-    <div class="jumbotron">
-        <div class="container">
-            <h3 class="text-center">Welcome. I'm Joshua JC Brown. I love to create the ultimate customer experience.</h3>
-            <!--<a class="btn btn-default btn-lg" href="portfolio">View my Work</a>-->
+<div class="row" style="position:relative; margin-top:0;">
+    <div class="col-sm-12">
+        <div class="jumbotron" id="secondJumbo" style="height: 400px;">
+            <div class="container">
+                <p><a class="btn btn-default btn-lg" id="seeWork" href="/portfolio" role="button">View my Work</a></p>
+            </div>
         </div>
     </div>
 </div>
-<nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-        <ul class="social_media nav nav-pills">
-            <li><a class="github" href="#">github</a></li>
-            <li><a class="linkedin" href="#">linkedin</a></li>
-            <li><a class="twitter" href="#">twitter</a></li>
-            <li><a class="pull-right">&copy; JJCB Designs</a></li>
-
-        </ul>
-    </div>
-</nav>
 </body>
-
 </html>
+
+
