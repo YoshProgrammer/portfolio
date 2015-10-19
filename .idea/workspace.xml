@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23bd6cc-b96e-4ab5-ae8b-fa6a6512d455" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/portfolio.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/portfolio.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.css.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="portfolio.css.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/portfolio.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5185185" vertical-offset="10242" max-vertical-offset="11730">
-              <caret line="708" column="38" selection-start-line="708" selection-start-column="38" selection-end-line="708" selection-end-column="38" />
+            <state vertical-scroll-proportion="-9.588235" vertical-offset="4956" max-vertical-offset="11730">
+              <caret line="363" column="1" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -90,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.7777777" vertical-offset="489" max-vertical-offset="1515">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.42430705" vertical-offset="1046" max-vertical-offset="1530">
+              <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/views/pages/portfolio.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/portfolio.css.scss" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css" />
       </list>
     </option>
   </component>
@@ -718,12 +718,12 @@
       <updated>1445109669431</updated>
       <workItem from="1445109669444" duration="3465000" />
       <workItem from="1445208295872" duration="17041000" />
-      <workItem from="1445277090712" duration="6400000" />
+      <workItem from="1445277090712" duration="6491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26906000" />
+    <option name="totallyTimeSpent" value="26997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -735,7 +735,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1008,14 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7777777" vertical-offset="489" max-vertical-offset="1515">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/pexels-photo.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1049,8 +1041,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/portfolio.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5185185" vertical-offset="10242" max-vertical-offset="11730">
-          <caret line="708" column="38" selection-start-line="708" selection-start-column="38" selection-end-line="708" selection-end-column="38" />
+        <state vertical-scroll-proportion="-9.588235" vertical-offset="4956" max-vertical-offset="11730">
+          <caret line="363" column="1" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42430705" vertical-offset="1046" max-vertical-offset="1530">
+          <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
           <folding />
         </state>
       </provider>
