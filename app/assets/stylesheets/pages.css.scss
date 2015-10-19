@@ -18,8 +18,7 @@
 }
 
 .jumbotron {
-    background-image: image-url("pexels-photo.jpg");
-    background-repeat: no-repeat;
+    background: image-url("pexels-photo.jpg") no-repeat;
     background-size: cover;
     height: 750px;
     h3 {
@@ -38,8 +37,7 @@
 
 #secondJumbo {
     .jumbotron {
-        background-image: image-url("blackwhitedesk.jpg");
-        background-repeat: no-repeat;
+        background: image-url("blackwhitedesk.jpg") no-repeat;
         background-size: cover;
     }
 }
@@ -57,8 +55,7 @@
 }
 
 #release-announcement {
-    background-image: image-url("wood-blocks.jpg");
-    background-repeat: no-repeat;
+    background: image-url("wood-blocks.jpg") no-repeat;
     background-size: cover;
     p {
         font-size: 18px;
