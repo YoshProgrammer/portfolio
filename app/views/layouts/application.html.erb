@@ -4,6 +4,7 @@
     <title>JJCB Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -12,11 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
     <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="//unslider.com/unslider.min.js"></script>
 
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -32,12 +33,11 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><%= link_to "Home", "/" %></li>
                     <li><%= link_to "Portfolio", "/portfolio" %></li>
-                    <li><%= link_to "Blog", "https://medium.com/@Daycrawler", :target => "_blank" %></li>
                 </ul>
             </div>
             <div class="name col-md-4">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/about">About</a></li>
+                    <li><%= link_to "Blog", "https://medium.com/@Daycrawler", :target => "_blank" %></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact
                             <span class="caret"></span></a>
@@ -60,7 +60,6 @@
             <li><a class="linkedin" href="https://www.linkedin.com/in/joshuajcbrown"><i class="ion-social-linkedin"></i> linkedin</a></li>
             <li><a class="twitter" href="https://twitter.com/JBDaycrawler"><i class="ion-social-twitter"></i> twitter</a></li>
             <li><a class="pull-right">&copy; JJCB Designs</a></li>
-
         </ul>
     </div>
 </nav>

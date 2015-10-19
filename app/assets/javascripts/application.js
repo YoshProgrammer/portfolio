@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require slider
 //= require typed.min
+//= require flexslider
+//= require scripts
+//= require waypoints
 //= require turbolinks
 //= require_tree .

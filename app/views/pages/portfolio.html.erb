@@ -1,20 +1,165 @@
-<!--<div class="row">-->
-<!--<div class="col-sm-12">-->
-<!--<div class="banner">-->
-<!--<ul>-->
-<!--<li><img src="https://photos-5.dropbox.com/t/2/AABv04Rap2sY3njysL1VMsfwFcwuS6uqSuv90LqbqShjCg/12/78475193/png/32x32/1/_/1/2/Screen%20Shot%202015-10-18%20at%205.16.30%20PM.png/EKbi8jwYFiACKAI/xyBKEHaV5zShNqoiQj7dyFzdIHmQsGTTotCCJrlGet0?size=1280x960&size_mode=2"></li>-->
-<!--<li><img src="https://photos-5.dropbox.com/t/2/AAAi-usNmVv12YXEZdOVjPGga3JQ5_PdDCLhw15lRbvzKA/12/78475193/png/32x32/1/_/1/2/Screen%20Shot%202015-10-18%20at%205.17.32%20PM.png/EKbi8jwYFiACKAI/s811bOW76gRYlo1gUkouRVQDg8slvAC5IwNKoGnm9cE?size=1280x960&size_mode=2"></li>-->
-<!--</ul>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<script>-->
-//    $(function() {
-//        $('.banner').unslider();
-//    });
-<!--</script>-->
-<div class="row">
-    <div class="col-sm-12">
-        <img style="background-image: url('http://www.waterwise.com/productcart/pc/images/page_construction.png'); background-size: cover;" width="100%" src="http://www.waterwise.com/productcart/pc/images/page_construction.png">
+<!DOCTYPE html>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<body id="top">
+<header id="home">
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <small id="nav-toggle"></small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                    <h1 class="animated fadeInDown">Joshua JC Brown<span>Portfolio</span></h1>
+                    <p class="animated fadeInUp delay-05s">My speciality is a precise balance between <em>sales, marketing and engineering.</em></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="#featuredProject" class="learn-more-btn">Featured Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<section class="text-center" id="responsive">
+    <div class="container-fluid nopadding responsive-services">
+        <div class="wrapper">
+            <div class="iphone">
+                <div class="wp3"></div>
+            </div>
+            <div class="fluid-white"></div>
+        </div>
+        <div class="container designs" id="featuredProject">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                    <div id="servicesSlider">
+                        <ul class="slides">
+                            <li>
+                                <h1>Featured Project</h1>
+                                <h3>Enplug Dashboard Redesign (AngularJS Application)</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero. </p>
+                                <p>
+                                    Mauris ultrices odio vitae nulla ultrices iaculis. Nulla rhoncus odio eu lectus faucibus facilisis. Maecenas ornare augue vitae sollicitudin accumsan. </p>
+                                <p>Etiam eget libero et erat eleifend consectetur a nec lectus. Sed id tellus lorem. Suspendisse sed venenatis odio, quis lobortis eros.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section>
+<section class="swag text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>A user interface is like a joke <span><em>If you have to explain it,<br /> </em> it’s not that good.</span></h1>
+                <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio text-center section-padding" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div id="portfolioSlider">
+                <ul class="slides">
+                    <li>
+                        <div class="col-md-4 wp4">
+                            <div class="overlay-effect effects clearfix">
+                                <div class="img">
+                                    <%= image_tag "portfolio-01.jpg" %>
+                                    <div class="overlay">
+                                        <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                                        <a class="close-overlay hidden">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>AngularJS - Web Page Application</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        </div>
+                        <div class="col-md-4 wp4 delay-05s">
+                            <div class="overlay-effect effects clearfix">
+                                <div class="img">
+                                    <%= image_tag "portfolio-02.jpg" %>
+                                    <div class="overlay">
+                                        <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                                        <a class="close-overlay hidden">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>AngularJS - Waitlist.Me Application</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        </div>
+                        <div class="col-md-4 wp4 delay-1s">
+                            <div class="overlay-effect effects clearfix">
+                                <div class="img">
+                                    <%= image_tag "portfolio-03.jpg" %>
+                                    <div class="overlay">
+                                        <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                                        <a class="close-overlay hidden">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Ruby on Rails - You're on it right now!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4 wp4">
+                            <div class="overlay-effect effects clearfix">
+                                <div class="img">
+                                    <%= image_tag "portfolio-01.jpg" %>
+                                    <div class="overlay">
+                                        <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                                        <a class="close-overlay hidden">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Ruby - Analytics Program</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        </div>
+                        <div class="col-md-4 wp4 delay-05s">
+                            <div class="overlay-effect effects clearfix">
+                                <div class="img">
+                                    <%= image_tag "portfolio-02.jpg" %>
+                                    <div class="overlay">
+                                        <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                                        <a class="close-overlay hidden">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>AngularJS + Firebase - Custom News Reader</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        </div>
+                        <div class="col-md-4 wp4 delay-1s">
+                            <div class="overlay-effect effects clearfix">
+                                <div class="img">
+                                    <%= image_tag "portfolio-03.jpg" %>
+                                    <div class="overlay">
+                                        <a href="#" class="expand"><i class="fa fa-search"></i><br>View More</a>
+                                        <a class="close-overlay hidden">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Swift - Tic Tac Toe</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="subscribe text-center">
+    <div class="container">
+        <h1><i class="fa fa-paper-plane"></i><span>Have questions? Comments?</span>  <br /> <a style="margin-top: 10px; color: whitesmoke;" href="mailto:hello@yoshprogramming.com">E-mail me</a></h1>
+        <form action="#">
+            <!--<input type="text" name="" value="" placeholder="" required>-->
+            <!--<input type="submit" name="" value="Send">-->
+        </form>
+    </div>
+</section>
