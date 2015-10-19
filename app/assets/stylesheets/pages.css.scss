@@ -36,9 +36,11 @@
 }
 
 #secondJumbo {
-    background-image: image-url("blackwhitedesk.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    .jumbotron {
+        background-image: image-url("blackwhitedesk.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 #seeWork {
